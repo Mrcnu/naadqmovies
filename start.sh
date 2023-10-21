@@ -8,5 +8,5 @@ else
 fi
 cd /adityaDQbot
 pip3 install -U -r requirements.txt
-echo "Starting DQ-The-File-Donor...."
+echo "Starting adityaDQbot...."
 python3 bot.py
