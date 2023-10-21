@@ -4,9 +4,9 @@ then
   git clone https://github.com/Mrcnu/adityaDQbot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /DQ-the-file-donor
+  git clone $UPSTREAM_REPO /adityaDQbot
 fi
-cd /DQ-the-file-donor
+cd /adityaDQbot
 pip3 install -U -r requirements.txt
 echo "Starting DQ-The-File-Donor...."
 python3 bot.py
